@@ -1,0 +1,173 @@
+ #top-container 
+*{
+	margin:0;
+	padding:0;
+}
+{
+	background: #99c1d8;
+
+  }
+  
+  .navbar {
+	padding-right: 4rem;
+	font-size: 1.2rem;
+	opacity: 0.9;
+  }
+  
+  .navbar:hover {
+	opacity: 1.2;
+  }
+  
+  .main-heading {
+	font-family: "Raleway";
+	font-weight: bolder;
+	font-size: 4rem;
+	margin-top: 0rem;
+	text-align: center;
+  }
+/*---banner section--*/
+#main
+{
+	text-align: center;
+	background:#bdd4e2;
+color:rgb(8, 0, 0);
+padding-top:2%;	
+padding-bottom: 2%;
+}
+.container h1 img{
+	padding-bottom: 10px;
+}
+
+
+/*---service section---*/
+#features1
+{
+	text-align: right;
+	padding: 10% 15%;
+}
+ #features
+ {
+     text-align: center;
+     padding: 10% 15%;
+     background-position:center;
+     background-image: url("WhatsApp Image 2021-09-17 at 7.13.30 PM.jpeg");
+ }
+ .my-btn {
+	margin-top: 2.5%;
+	font-family: "Roboto", cursive;
+	font-weight: bolder;
+  }
+.features-items {
+  color: #393e46;
+  font-size: 2rem;
+  text-align: center;
+  padding: 10%;
+}  
+ 
+ .features1 h3
+{
+	padding:5px;
+	margin: top 2.5%;;
+	text-transform:uppercase;
+}
+
+.features h3
+{
+	padding:5px;
+	margin: top 2.5%;;
+	text-transform:uppercase;
+}
+.title::before
+{
+	content:'';
+	background:#99c1d8;
+	height:5px;
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	transform:translatey(63px);
+}
+.title::after
+{
+	content:'';
+	background:#99c1d8;
+	height:10px;
+	width:50px;
+	margin-left:auto;
+	margin-right:auto;
+    margin-bottom:40px;
+    display: block;
+	transform:translatey(8px);
+}
+#features .btn-primary
+{
+	box-shadow:none;
+	padding:10px 25px;
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+	background-image:linear-gradient(to right,#faf6f6,#0a0a0a)
+}
+/* Action*/
+  #action{
+    background-color:#e25353be;
+    padding: 7% 15%;
+    text-align: center;
+    line-height: 1.5;
+    color: rgb(43, 9, 9);
+  }
+  .main{
+    font-size: 3rem;
+    line-height: 1.5;
+    padding: 10px 0px;
+  }
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+  
+  #footer {
+	background-color: #f6f5f5;
+	padding: 5%;
+	padding-bottom: 3%;
+	text-align: center;
+	font-family: "Roboto", cursive;
+	font-weight: bolder;
+  }
+  
+  hr {
+	border: dotted grey;
+	border-bottom: none;
+	border-width: 4px;
+	width: 30%;
+	margin: 50px, auto;
+  }
+  
+  .get-social {
+	margin: 60px 0 10px;
+	font-family: "Roboto", cursive;
+	font-size: 1.3rem;
+	color: #7e7474;
+	font-weight: bolder;
+  }
+  
+  .social-icon {
+	margin: 20px 30px 50px;
+	color: black;
+	font-size: 1.5rem;
+	opacity: 0.6;
+  }
+  
+  .social-icon:hover {
+	opacity: 0.9;
+  }
+  
+  .copyright {
+	color: #7e7474;
+	margin-top: 50px;
+	margin-bottom: 0;
+  }
